@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fire Water Grass </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1 id="header">
+         <span id="fire-header">Fire</span><span id="water-header"> Water</span>
+         <span id="grass-header">Grass</span>
+        </h1>
+
+    <div id="main-container">
+        <div id="box-container">
+
+            <div id="player-container" class="player-com-container">
+                <h1 id="player-header">Player</h1>
+                <div id="player-choice-container" class="choice-container">
+                    <div id="img-container-1" class="img-container">
+                        <img id="fire-player" class="element-img"src="fire.png">
+                    </div>
+
+                    <div id="img-container-2" class="img-container">
+                        <img id="water-player" class="element-img"src="water.png">
+                    </div>
+
+                    <div id="img-container-3" class="img-container">
+                        <img id="grass-player" class="element-img"src="grass.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="middle-container">
+                <h1>Score</h1>
+                <h1><span id="player-score">0</span> - <span id="com-score"> 0</span></h1>
+                <img id="battle" class="element-img" src="swords.png">
+                <p id="battle-msg"></p>
+                <p id="win-msg"></p>
+            </div>
+
+        <div id="com-container" class="player-com-container">
+            <h1 id="com-header">Computer</h1>
+                <div id="com-choice-container" class="choice-container">
+                    <div id="img-container-4" class="img-container">
+                        <img id="fire-com" class="element-img"src="fire.png">
+                    </div>
+
+                    <div id="img-container-5" class="img-container">
+                        <img id="water-com" class="element-img"src="water.png">
+                    </div>
+
+                    <div id="img-container-6" class="img-container">
+                        <img id="grass-com" class="element-img"src="grass.png">
+                    </div>
+                </div>
+        </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
